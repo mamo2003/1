@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height:100%;
+    margin: 0%;
+    background-color: antiquewhite;
+}
+
+.box1 {
+    width: 100%;
+    height: 200px;
+    position: 100%;
+    background: aqua;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.box2 {
+    float: left;
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: radial-gradient(ellipse, rgb(236, 246, 239) 10%, rgb(191, 194, 195) 90%);
+}
+
+.box3 {
+    float: right;
+    width: 30%;
+    height: 800px;
+    border-radius: 10px;
+    background-image: linear-gradient(105deg, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%);
+}
+
+.box4 {
+    float: left;
+    width: 70%;
+    height: 600px;
+    background-image: radial-gradient(circle, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%);
+    background-size: 100px 50px;
+    border-radius: 10px;
+}
+
+.box5 {
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-image: radial-gradient(ellipse, rgb(236, 246, 239) 10%, rgb(191, 194, 195) 90%);
+    background-size: 100px 50px;
+    border-radius: 10px;
+    }
+
+.box6 {
+    float: right;
+    width: 80%;
+    height: 100px;
+    grid-auto-flow: column;
+    background: burlywood;
+    border-radius: 10px;
+    }
