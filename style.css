@@ -51,7 +51,7 @@ body{
     width: 100%;
     height: 200px;
     position: 100%;
-    background: aqua;
+    background: rgb(226, 75, 153);
     border-radius: 10px;
     padding-bottom: 5px;
     float: left;
@@ -70,7 +70,7 @@ body{
     width: 30%;
     height: 800px;
     border-radius: 10px;
-    background-image: linear-gradient(105deg, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%);
+    background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57, 1) 96%);
 }
 
 .box4 {
@@ -86,7 +86,7 @@ body{
     float: left;
     width: 20%;
     height: 100px;
-    background-image: radial-gradient(ellipse, rgb(236, 246, 239) 10%, rgb(191, 194, 195) 90%);
+    background-image: radial-gradient(ellipse, rgb(62, 40, 207) 10%, rgb(191, 194, 195) 90%);
     background-size: 100px 50px;
     border-radius: 10px;
     }
@@ -96,6 +96,6 @@ body{
     width: 80%;
     height: 100px;
     grid-auto-flow: column;
-    background: burlywood;
+    background: rgb(194, 47, 65);
     border-radius: 10px;
     }
