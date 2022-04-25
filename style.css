@@ -33,9 +33,9 @@ body{
 .icon-instagram {
 	background: #3F60A5;
 }
-.icon-whatsapp:before {
-    background: rgb(79, 190, 82) ;
-  }
+.icon-whatsapp {
+    background: #76e74d ;
+}
 .icon:first-child {
 	border-radius: 1rem 0 0 0;
 }
