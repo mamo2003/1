@@ -48,11 +48,9 @@ body{
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 .box1{
-    display:flexbox;
     position: fixed;
     width: 100%;
     height: 100px;
-    position: 100%;
     background: rgb(226, 75, 153);
     z-index: 1;
     border-radius: 2px;}
@@ -60,30 +58,29 @@ body{
     display: relative;
     float: left;
     width: 70%;
-    height: 200px;
+    height: 150px;
     background-image: radial-gradient(ellipse, rgb(236, 246, 239) 10%, rgb(191, 194, 195) 90%);
 }
 .box3 {
     position: relative;
     float: right;
     width: 30%;
-    height: 800px;
+    height: 500px;
     background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57, 1) 96%);
 }
 .box4 {
     position: relative;
     float: right;
-    width: 70%;
-    height: 600px;
+    width: 35%;
+    height:300px;
     background-image: radial-gradient(circle, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%);
     background-size: 100px 50px;
 }
 .box5 {
     display: relative;
     float: left;
-    grid-auto-flow: column;
     width: 20%;
-    height: 100px;
+    height:100px ;
     background-image: radial-gradient(ellipse, rgb(62, 40, 207) 10%, rgb(191, 194, 195) 90%);
     background-size: 100px 50px;
         }
@@ -100,7 +97,7 @@ body{
     background-color: rgb(113, 238, 35);
     border: #3F60A5 solid;
     width: 100%;
-    height: 100px;
+    height: 50px;
     position: relative;
     float: left;
     z-index: 1;
