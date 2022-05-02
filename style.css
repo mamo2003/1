@@ -1,104 +1,110 @@
 body{
-    width: 100%;
-    height:100%;
-    margin: 0%;
     background-color: antiquewhite;
 }
-.social-bar {
-    position: fixed;
-    right: 0;
-    top: 35%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 100;
+#box1{
+position: sticky;
+position: -webkit-sticky;
+display: inline-block;
+width: 100%;
+height: auto;
+background: rgb(226, 75, 153);
+z-index: 1;
+border-radius: 2px;
 }
-.icon {
-	color: white;
-	text-decoration: none;
-	padding: .7rem;
-	display:flex;
-	transition: all .5s;
+ul li{
+list-style:none;
+display:inline-block;
+position: relative;
+text-align: center;
 }
-.icon-facebook {
-	background: #2E406E;
+.box{
+    display:grid;
+    position:relative;
+    align-content: initial;
+    grid-template-columns:auto auto;
+    width: auto;
+    height: 260px;
+    padding: 2px 2px 2px 2px;
+    gap: 4px;
 }
-.icon-twitter {
-	background: #339DC5;
+#box2{
+    background-color: #3F60A5;
+    height: 260px;
 }
-.icon-youtube {
-	background: #E83028;
+#box3{
+    background-color: #33ddf3;
+    height: 260px;
 }
-.icon-instagram {
-	background: #3F60A5;
+#box4{
+    background-color: #1e1e1f;
+    height: 260px;
 }
-.icon-whatsapp {
-    background: #76e74d ;
+#box5{
+    background-color: #a53f3f;
+    height: 260px;
 }
-.icon:first-child {
-	border-radius: 1rem 0 0 0;
+#box6{
+    background-color: #8da53f;
+    height: 260px;
 }
-.icon:last-child {
-	border-radius: 0 0 0 1rem;
+#box7{
+    background-color: #3fa53f;
+    height: 260px;
 }
-.icon:hover {
-	padding-right: 3rem;
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+#box8{
+position: relative;
+float: right;
+padding: 3px;
+width: 25%;
+height: 785px;
+background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57, 1) 96%);
 }
-.box1{
-    position: fixed;
+#box9 {
+    display:inline-block;
+    padding-top: 3px;
     width: 100%;
-    height: 100px;
-    background: rgb(226, 75, 153);
-    z-index: 1;
-    border-radius: 2px;}
-.box2 {
-    display: relative;
-    float: left;
-    width: 70%;
-    height: 150px;
-    background-image: radial-gradient(ellipse, rgb(236, 246, 239) 10%, rgb(191, 194, 195) 90%);
-}
-.box3 {
-    position: relative;
-    float: right;
-    width: 30%;
-    height: 500px;
-    background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57, 1) 96%);
-}
-.box4 {
-    position: relative;
-    float: right;
-    width: 35%;
-    height:300px;
-    background-image: radial-gradient(circle, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%);
-    background-size: 100px 50px;
-}
-.box5 {
-    display: relative;
-    float: left;
-    width: 20%;
-    height:100px ;
-    background-image: radial-gradient(ellipse, rgb(62, 40, 207) 10%, rgb(191, 194, 195) 90%);
-    background-size: 100px 50px;
-        }
-.box6 {
-    display: relative;
-    float: right;
-    width: 80%;
-    height: 100px;
-    grid-auto-flow: column;
-    background: rgb(194, 47, 65);
-
+    height: 40px;
+    background: rgb(194, 47, 65); }
+    .social-bar {
+        position: fixed;
+        right: 0;
+        top: 63%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
     }
-.nav1{
-    background-color: rgb(113, 238, 35);
-    border: #3F60A5 solid;
-    width: 100%;
-    height: 50px;
-    position: relative;
-    float: left;
-    z-index: 1;
+    .icon {
+        color: white;
+        text-decoration: none;
+        padding: .7rem;
+        display:flex;
+        transition: all .5s;
+    }
+    .icon-facebook {
+        background: #2E406E;
+    }
+    .icon-twitter {
+        background: #339DC5;
+    }
+    .icon-youtube {
+        background: #E83028;
+    }
+    .icon-instagram {
+        background: #3F60A5;
+    }
+    .icon-whatsapp {
+        background: #76e74d ;
+    }
+    .icon:first-child {
+        border-radius: 1rem 0 0 0;
+    }
+    .icon:last-child {
+        border-radius: 0 0 0 1rem;
+    }
+    .icon:hover {
+        padding-right: 3rem;
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
     }
