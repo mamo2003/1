@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     background-color: antiquewhite;
 }
 #box1{
@@ -11,11 +12,20 @@ background: rgb(226, 75, 153);
 z-index: 1;
 border-radius: 2px;
 }
+#logo{
+    border-radius: 50%;
+}
 ul li{
 list-style:none;
 display:inline-block;
 position: relative;
-text-align: center;
+align-items:baseline;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#busca{
+    text-align: end;
+    padding-left: 800px;
 }
 .box{
     display:grid;
