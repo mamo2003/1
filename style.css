@@ -16,6 +16,7 @@ border-radius: 2px;
     margin: 0px;
     padding: 0px;
     text-align:justify;
+    vertical-align: text-top;
     font-size: 50px;
     text-overflow: clip;
 }
@@ -64,16 +65,16 @@ text-align: right;
 }
 .box{
     text-align:center;
-    font-size: 12px;
-    overflow:visible;
+    font-size: 16px;
     display:grid;
     position:relative;
     grid-template-columns:auto auto;
     width: auto;
-    padding: 2px 2px 2px 2px;
+    padding: 2px 4px 2px 4px;
     gap: 4px;
 }
 #box2{
+    vertical-align: text-top;
     background-color: #3F60A5;
     height: 260px;
 }
