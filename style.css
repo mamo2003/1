@@ -34,9 +34,8 @@ ul{
     padding-bottom: 2px;
     height:auto;
     width: auto;
-    
     background: rgb(226, 75, 153);
-   } 
+} 
 li a{
 display:inline-block;
 color: black;
