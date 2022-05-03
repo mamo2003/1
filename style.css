@@ -4,28 +4,45 @@ body{
 }
 #box1{
 position: sticky;
-position: -webkit-sticky;
+position:-webkit-sticky;
 display: inline-block;
-width: 100%;
+width: auto;
 height: auto;
 background: rgb(226, 75, 153);
 z-index: 1;
 border-radius: 2px;
 }
 #logo{
-    border-radius: 50%;
+    border-radius: 90%;
 }
-ul li{
-list-style:none;
+ul{
+    list-style:none;
+    position:relative;
+    display:flex;
+    overflow: auto;
+    text-align:justify;
+    height:auto;
+    width: auto;
+    background: rgb(226, 75, 153);
+   } 
+li a{
 display:inline-block;
-position: relative;
-align-items:baseline;
-margin-top: 5px;
-margin-bottom: 5px;
+color: black;
+text-align: center;
+padding: 1px 1px 1px 1px;
+text-decoration:none;
+}
+li a.nav{
+color:black
+}
+li a:hover:not(.active) {
+    background-color:#555;
+    color:white;
 }
 #busca{
-    text-align: end;
-    padding-left: 800px;
+    position:block;
+    padding-left: 650px;
+    text-align:right;
 }
 .box{
     display:grid;
