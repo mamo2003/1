@@ -39,8 +39,39 @@
     </aside>
 <main class="box">
   <div id="box10"><h1>formulario de contacto</h1>
-<p></p>
-</main>
+    <imput type="text" name="nombre" palceholder="nombre">
+        <label for="nombre"><b>Nombre:</b></label><input type="text" name="nombre" placeholder="ingresa tu nombre"><br>
+        <br>
+        <label for="apellido"><b>Apellido:</b></label><input type="text" name="apellido" placeholder="ingresa tu apellido"><br>
+        <br>
+        <label for="Correo electronico"><b>Correo Electronico:</b></label><input type="email" name="_replyto" placeholder="Your email">
+        <br>
+        <input type="hidden" name="_honeypot" value="">
+        <input type="hidden" name="_confirmation" value="">
+        <br>
+        <b>Pais de origen :</b> <select name="pais">    
+        <option value="1">Argentina</option>
+        <option value="2">España</option>
+        <option value="3">México</option>
+        <option value="4">Guatemala</option>
+        <option value="5">Honduras</option>
+        <option value="6">El Salvador</option>
+        <option value="7">Venezuela</option>
+        <option value="8">Colombia</option>
+        <option value="9">Cuba</option>
+        <option value="10">Bolivia</option>
+        <option value="11">Ecuador</option>
+        <option value="12">Uruguay</option>
+        </select>
+        <br>
+        <br><label for="comentario"><b>Dejanos tu comentario:</b></label>
+        <br>
+        <textarea name="comentario" placeholder="deja tu comentario aqui...." rows="8" cols="100"></textarea><p></p>
+        <br>
+        <input type="submit" value="Enviar formulario" formaction="respuestacontacto.html">
+        <input type="reset" value="Borrar formulario">
+    <br>
+    <hr></main>
 <footer>
 <div id="id"></div>
 <div id="box9">© maximostore 2022</div>

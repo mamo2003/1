@@ -54,7 +54,16 @@ li a:hover:not(.active) {
     padding-left: 580px;
 text-align: right;
 }
+.navneumaticos{
+    display: none;
+    position: relative;
+}
+.navneumaticos:hover:active{
+    display: inline-block;
+    position:relative;
+}
 .box{
+    text-align: center;
     display:grid;
     position:relative;
     align-content: initial;
@@ -102,7 +111,9 @@ background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57,
     width: 100%;
     height: 40px;
     background: rgb(194, 47, 65); }
-    .social-bar {
+#box10{text-align: center;}
+#rescontacto{ text-align: center;}
+.social-bar {
         position: fixed;
         right: 0;
         top: 63%;
@@ -112,35 +123,35 @@ background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57,
         align-items: flex-end;
         z-index: 100;
     }
-    .icon {
+.icon {
         color: white;
         text-decoration: none;
         padding: .7rem;
         display:flex;
         transition: all .5s;
     }
-    .icon-facebook {
+.icon-facebook {
         background: #2E406E;
     }
-    .icon-twitter {
+.icon-twitter {
         background: #339DC5;
     }
-    .icon-youtube {
+.icon-youtube {
         background: #E83028;
     }
-    .icon-instagram {
+.icon-instagram {
         background: #3F60A5;
     }
-    .icon-whatsapp {
+.icon-whatsapp {
         background: #76e74d ;
     }
-    .icon:first-child {
+.icon:first-child {
         border-radius: 1rem 0 0 0;
     }
-    .icon:last-child {
+.icon:last-child {
         border-radius: 0 0 0 1rem;
     }
-    .icon:hover {
+.icon:hover {
         padding-right: 3rem;
         border-radius: 1rem 0 0 1rem;
         box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
