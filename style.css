@@ -63,13 +63,13 @@ text-align: right;
     position:relative;
 }
 .box{
-    text-align: center;
+    text-align:center;
+    font-size: 12px;
+    overflow:visible;
     display:grid;
     position:relative;
-    align-content: initial;
     grid-template-columns:auto auto;
     width: auto;
-    height: 260px;
     padding: 2px 2px 2px 2px;
     gap: 4px;
 }
@@ -112,7 +112,9 @@ background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57,
     height: 40px;
     background: rgb(194, 47, 65); }
 #box10{text-align: center;}
-#rescontacto{ text-align: center;}
+.rescontacto{ text-align: center;
+    padding-top: 15%;
+height: 800px;}
 .social-bar {
         position: fixed;
         right: 0;
