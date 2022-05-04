@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: antiquewhite;
+    background: rgb(238, 251, 139);
 }
 #box1{
 position: sticky;
@@ -8,21 +8,19 @@ position:-webkit-sticky;
 display: inline-block;
 width: 100%;
 height: 100px;
-background: rgb(226, 75, 153);
+background: rgb(233, 254, 73);
 z-index: 1;
 border-radius: 2px;
 }
-#box1 h1{
+#box1 h3{
     margin: 0px;
     padding: 0px;
-    text-align:justify;
-    vertical-align: text-top;
-    font-size: 50px;
-    text-overflow: clip;
+    font-size: 60px;
 }
-hr {
+#hr{
     padding: 0px;
     margin: 0px;
+    background: rgb(233, 254, 73);
 }
 ul{
     list-style:none;
@@ -30,12 +28,9 @@ ul{
     display:flex;
     overflow: auto;
     text-align:justify;
-    margin-top: 2px;
-    padding:2px 2px 2px 2px;
-    padding-bottom: 2px;
     height:auto;
     width: auto;
-    background: rgb(226, 75, 153);
+    background: rgb(233, 254, 73);
 } 
 li a{
 display:inline-block;
@@ -73,45 +68,59 @@ text-align: right;
     padding: 2px 4px 2px 4px;
     gap: 4px;
 }
+#a{
+    vertical-align:text-top;
+    text-align:center;
+}
+#b{
+    vertical-align:text-bottom;
+}
 #box2{
-    vertical-align: text-top;
-    background-color: #3F60A5;
+    text-align:left;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box3{
-    background-color: #33ddf3;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box4{
-    background-color: #1e1e1f;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box5{
-    background-color: #a53f3f;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box6{
-    background-color: #8da53f;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box7{
-    background-color: #3fa53f;
+    background-color: #ffffff;
     height: 260px;
+    border: rgb(246, 255, 126) solid 1px;
 }
 #box8{
 position: relative;
 float: right;
+vertical-align:super;
 padding: 3px;
 width: 25%;
 height: 785px;
-background-image: linear-gradient(105deg, rgb(251, 255, 0) 39%, rgba(51, 56, 57, 1) 96%);
+background: rgb(233, 254, 73);
 }
 #box9 {
     display:inline-block;
     padding-top: 3px;
     width: 100%;
     height: 40px;
-    background: rgb(194, 47, 65); }
+    background: rgb(233, 254, 73); }
 #box10{text-align: center;}
 .rescontacto{ text-align: center;
     padding-top: 15%;
