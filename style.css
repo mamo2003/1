@@ -7,7 +7,7 @@ position: sticky;
 position:-webkit-sticky;
 display: inline-block;
 width: 100%;
-height: 120px;
+height: 140px;
 background: rgb(233, 254, 73);
 padding: 0px;
 }
@@ -54,7 +54,7 @@ text-align: right;
     position:relative;
     grid-template-columns:auto auto;
     width: auto;
-    padding: 2px 4px 2px 4px;
+    padding:2px 4px 2px 4px;
     gap: 4px;
 }
 #a{
@@ -64,7 +64,7 @@ vertical-align:text-top;
     vertical-align:text-bottom;
 }
 #box2{
-    text-align:left;
+    text-align:center ;
     background-color: #ffffff;
     height: 260px;
     border: rgb(246, 255, 126) solid;
@@ -99,6 +99,7 @@ position:relative;
 float: right;
 padding: 0px;
 margin-top: 0px;
+border-bottom: 4px;
 width: 25%;
 height: 810px;
 background: rgb(233, 254, 73);
@@ -110,7 +111,8 @@ background: rgb(233, 254, 73);
     height:40px;
     padding-top: 3px;
     background: rgb(233, 254, 73); }
-#box10{text-align: center;}
+#box10{text-align: center;
+height: 810px;}
 .rescontacto{ text-align: center;
     padding-top: 15%;
 height: 800px;}
