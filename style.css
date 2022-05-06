@@ -15,16 +15,16 @@ padding: 0px;
     padding:0px;
     font-size: 70px;
 }
-ul{
+.nav{
     list-style:none;
     position:relative;
     display:flex;
-    text-align:center;
     width: auto;
-    padding: 2px;
-    margin-bottom: 1px;
     background: rgb(233, 254, 73);
 } 
+li{
+    padding-right: 10px;
+}
 li a{
 display:inline-block;
 color: black;
