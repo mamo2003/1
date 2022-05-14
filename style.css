@@ -77,3 +77,23 @@ border-radius: 0 0 0 1rem;}
 padding-right: 3rem;
 border-radius: 1rem 0 0 1rem;
 box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.1fr 0.9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "full escrito1 escrito1 escrito1 ."
+      "full escrito2 escrito2 imagen1 imagen1"
+      "full escrito2 escrito2 imagen1 imagen1"
+      "full escrito2 escrito2 fot4 fot4";
+    width: 100%;
+    height: 768px;
+  }
+  .escrito1 { grid-area: escrito1;}
+  .imagen1 { grid-area: imagen1;  }
+  .escrito2 { grid-area: escrito2;  }
+  .fot4 { grid-area: fot4;  }
+  .full { grid-area: full;  }
+  
