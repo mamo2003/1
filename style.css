@@ -1,33 +1,41 @@
-.primero{
-width: 100%;
-height: 40px;
-margin: 1px;
-text-align: center;
+.nav-link{color:rgba(255, 187, 0);
+margin: 15px;
+}
+.btn-outline-warning:hover{
+    background-color: rgb(229, 249, 10);
+}
+h1{color:rgba(255, 187, 0);}
+.dropdown-item{   
+    align-items: center;
+    color: rgb(255, 187, 0) !important;
+    margin: 15px;
 }
 .navbar{
-align-self: center;
-height: 50px;
+align-self:baseline;
+height: 70px;
 }
 .rounded-circle {
+    position: relative;
     width: 50px;
-    height: 40px;
+    height: 50px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 } 
-.d-block{
-    min-height:300px;
+.d-block{height:460px;
 }
 .card{
-    width:80%;
-    align-self:center;
+    border-radius: 8%;
+    width:85%;
     height:300px;
     text-align: center;
-    margin-bottom: 5px;
-    margin-left: 50px;
+    margin: 10px 20px;
 }
 .card-img-top{
 width: min-content;
 height: min-content;
+align-self: center;
 }
+.card a{color: rgba(255, 187, 0) !important;}
+
 .rescontacto{ text-align: center;
 padding-top: 15%;
 height: 800px;}
@@ -35,11 +43,10 @@ height: 800px;}
 text-align: justify;
 justify-content:space-evenly;
 }
-
 .social-bar {
         position: fixed;
         right: 0;
-        top: 60%;
+        top: 63%;
         font-size: 1.5rem;
         display: flex;
         flex-direction: column;
