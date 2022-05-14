@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neumaticos Centro</title>
-    <link rel="shortcut icon" href="/image/tire_icon.ico" type="image/x-icon" class="icon">
+    <title>Neumaticos Centro</title>   
+    <link rel="shortcut icon" href="./image/tire_icon.ico" type="image/x-icon" class="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/font.css">
-    <script type="text/javascript" src="/script.js"></script>   
 </head>
 <body>
     <div class="social-bar">
@@ -18,23 +19,41 @@
         <a href="https://www.instagram.com/neumaticoscentrochivilcoy/" class="icon icon-instagram" target="_blank"></a>
         <a href="https://api.whatsapp.com/send?phone=5423468609718" class="icon icon-whatsapp" target="_blank"></a>
     </div>
-    <header class="box1"> 
-        <h3><img id="b" src="/image/tire_iconw.ico" id="logo"alt="logo neumaticos" >Neumaticos Centro</h3>
-        <hr/> 
-        <ul class="nav">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./somos.html">Quienes Somos</a></li> 
-          <li><a href="./contactos.html">contactanos</a></li>
-          <li><a href="./neumaticos.html">neumaticos</a></li>
-          <li><a href="./servicios.html">servicios</a></li>
-          <li><a href="./unamas.html">algo mas</a></li>
-          <li><form action="/action_page.php" id="busca">
-          <input type="text" placeholder="buscar.." name="Buscar">
-          <button>buscar</button>
-          </form></li>
-         </ul>
-         <hr/>
-   </header>
+<header> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand"><h1><img src="/image/tire_icon.ico" class="rounded-circle" alt="Ncentro">NEUMATICOS CENTRO</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav me-auto justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-warning" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-warning" href="./somos.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-outline-warning"  href="#" role="button" data-bs-toggle="dropdown">Productos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item btn btn-outline-warning" href="./servicios.html">Servicios</a></li>
+                  <li><a class="dropdown-item btn btn-outline-warning" href="neumaticos.html">neumaticos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a type="button"class="nav-link btn btn-outline-warning" href="./contactos.html">Contactenos</a> 
+              </li>
+              </ul>
+              <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="busca aqui...">
+              <button class="btn btn-outline-warning" type="button">Buscar</button>
+            </form>
+          </div>
+      </div>
+    <div> 
+  </nav>
+</header>
 <aside>
     <div id="box8">noticias novedades </div> 
     </aside>
@@ -59,8 +78,22 @@
         <button type="button" class="btn btn-default btn-sm">carrito</div>
 </main>
 <footer>
-<div id="id"></div>
-<div id="box9">© maximostore 2022</div>
-</footer>
+    <div class="container-fluid">
+      <ul class="nav bg-light">
+        <li class="nav-item">
+          <b class="nav-link" id="copyright">© MaximoStore 2022-Todos los Derechos Reservados</b>
+        </li>
+        <li class="nav-item ">
+          <b class="nav-link" href="./cookies.html">Política de Cookies</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" href="./privacidad.html">Política de Privacidad</b>
+        </li>
+        <li class="nav-item">
+          <b class="nav-link" id="correo" href="mailto:mlarraniaga1978@gmail.com">Envianos un correo Electronico</b>
+        </li>
+      </ul>
+    </div>
+    </footer>
 </body>
 </html>
