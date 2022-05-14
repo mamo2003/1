@@ -4,89 +4,27 @@ body{
 }
 .box1{
 position: sticky;
-display: inline-block;
 width: 100%;
 height: 140px;
-background: rgb(233, 254, 73);
-padding: 0px;
+margin: 5px;
 }
 .box1 h3{
     margin: 0px;
     padding:0px;
     font-size: 70px;
 }
-.nav{
-    list-style:none;
-    position:relative;
-    display:flex;
-    width: auto;
-    background: rgb(233, 254, 73);
+.fotonav{height: 50px;border-radius:50% ;}
+.demo{width: 100%;
+    height: 200px;
+}
+.carousel-item {
+    height: 600px;
+}
+.rounded-circle {
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 } 
-li{
-    padding-right: 10px;
-}
-li a{
-display:inline-block;
-color: black;
-text-align: center;
-text-decoration:none;
-}
-li a.nav{
-color:black
-}
-li a:hover:not(.active) {
-    background-color:#555;
-    color:white;
-}
-hr{
-margin-bottom:0px;
-padding:0px;
-}
-#busca{
-padding-left: 580px;
-text-align: right;
-}
-.box{
-    text-align:center;
-    font-size: 16px;
-    display:grid;
-    position:relative;
-    grid-template-columns:auto auto;
-    width: auto;
-    padding:2px 4px 2px 4px;
-    gap: 4px;
-}
-#a{
-vertical-align:text-top;
-}
-#b{
-    vertical-align:text-bottom;
-}
-#box2{
-    text-align:center ;
-    background-color: #ffffff;
-    height: 260px;
-    border: rgb(246, 255, 126) solid;
-}
-#box8{
-position:relative;
-float: right;
-padding: 0px;
-margin-top: 0px;
-border-bottom: 4px;
-width: 25%;
-height: 810px;
-background: rgb(233, 254, 73);
-}
-#box9 {
-    display:relative;
-    margin-top: 1px;
-    width: 100%;
-    height:40px;
-    padding-top: 3px;
-    background: rgb(233, 254, 73); }
-#box10{text-align: center;
-height: 810px;}
 .rescontacto{ text-align: center;
     padding-top: 15%;
 height: 800px;}
