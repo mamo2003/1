@@ -42,9 +42,19 @@ align-self: center;
 }
 .card b{color: rgba(255, 187, 0);
 }
-.rescontacto{ text-align: center;
-padding-top: 15%;
-height: 800px;
+
+#formcontact{
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  background-color: #339DC5;
+}
+.contact1{ 
+margin-top: 30px;
+font-size:58px;
+padding-right:80px;
+writing-mode: vertical-lr;
 }
 .nav-item{
 text-align: justify;
@@ -112,4 +122,14 @@ box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
   .escrito2 { grid-area: escrito2;  }
   .fot4 { grid-area: fot4;  }
   .full { grid-area: full;  }
-  
+      @media only screen and (max-width : 768px) {
+    }
+    @media only screen and (max-width : 320px) {
+      .contact1{display:none;}
+    #formcontact{margin:0px;
+    width: 100%;
+    height:auto;}
+    #fomrcontact b{display:none;}
+        }
+    @media only screen and (max-width : 200px) {
+    }
