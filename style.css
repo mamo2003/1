@@ -19,7 +19,8 @@ width: 50px;
 height: 50px;
 box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 } 
-.d-block{height: 520px;}
+.d-block{height: 600px;
+}
 #texto{
 text-align: center;
 text-shadow: 1px 2px 1px rgb(200, 198, 198);}
@@ -27,19 +28,24 @@ text-shadow: 1px 2px 1px rgb(200, 198, 198);}
 border-radius: 8%;
 width:85%;
 height:300px;
+box-sizing: border-box;
 text-align: center;
 margin: 10px 20px;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
-.card:hover{box-shadow:rgba(82, 84, 85, 0.4) 0px 8px 24px;}
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card:hover{box-shadow:rgba(191, 193, 110, 0.797) 0px 8px 24px;
+}
 .card-img-top{
 width: min-content;
 height: min-content;
 align-self: center;
 }
-.card b{color: rgba(255, 187, 0) !important;}
+.card b{color: rgba(255, 187, 0);
+}
 .rescontacto{ text-align: center;
 padding-top: 15%;
-height: 800px;}
+height: 800px;
+}
 .nav-item{
 text-align: justify;
 justify-content:space-evenly;
@@ -52,31 +58,41 @@ font-size: 1.5rem;
 display: flex;
 flex-direction: column;
 align-items: flex-end;
-z-index: 100;}
+z-index: 100;
+}
 .icon {
 color: white;
 text-decoration: none;
 padding: .7rem;
 display:flex;
-transition: all .5s;}
+transition: all .5s;
+}
 .icon-facebook {
-background: #2E406E;}
+background: #2E406E;
+}
 .icon-twitter {
-background: #339DC5;}
+background: #339DC5;
+}
 .icon-youtube {
-background: #E83028;}
+background: #E83028;
+}
 .icon-instagram {
-background: #3F60A5;}
+background: #3F60A5;
+}
 .icon-whatsapp {
-background: #76e74d ;}
+background: #76e74d ;
+}
 .icon:first-child {
-border-radius: 1rem 0 0 0;}
+border-radius: 1rem 0 0 0;
+}
 .icon:last-child {
-border-radius: 0 0 0 1rem;}
+border-radius: 0 0 0 1rem;
+}
 .icon:hover {
 padding-right: 3rem;
 border-radius: 1rem 0 0 1rem;
-box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);}
+box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
 
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.1fr 0.9fr;
