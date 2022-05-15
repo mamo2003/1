@@ -19,8 +19,14 @@ width: 50px;
 height: 50px;
 box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 } 
+.nav-item .nav-item .btn{
+text-align: justify;
+justify-content:space-evenly;
+}
+/* carrusel */
 .d-block{height: 600px;
 }
+/* CARDS */
 #texto{
 text-align: center;
 text-shadow: 1px 2px 1px rgb(200, 198, 198);}
@@ -42,7 +48,11 @@ align-self: center;
 }
 .card b{color: rgba(255, 187, 0);
 }
-
+/* privado */
+.priv{
+  align-items: center;
+}
+/* formulario contactos */
 #formcontact{
   align-items: center;
   display: flex;
@@ -56,10 +66,7 @@ font-size:58px;
 padding-right:80px;
 writing-mode: vertical-lr;
 }
-.nav-item{
-text-align: justify;
-justify-content:space-evenly;
-}
+/* barra social */
 .social-bar {
 position: fixed;
 right: 0;
@@ -103,33 +110,35 @@ padding-right: 3rem;
 border-radius: 1rem 0 0 1rem;
 box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
-
+/* page somos */
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1.1fr 0.9fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3px 3px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "full escrito1 escrito1 escrito1 ."
-      "full escrito2 escrito2 imagen1 imagen1"
-      "full escrito2 escrito2 imagen1 imagen1"
-      "full escrito2 escrito2 fot4 fot4";
-    width: 100%;
-    height: 768px;
-  }
-  .escrito1 { grid-area: escrito1;}
-  .imagen1 { grid-area: imagen1;  }
-  .escrito2 { grid-area: escrito2;  }
-  .fot4 { grid-area: fot4;  }
-  .full { grid-area: full;  }
-      @media only screen and (max-width : 768px) {
-    }
-    @media only screen and (max-width : 320px) {
-      .contact1{display:none;}
-    #formcontact{margin:0px;
-    width: 100%;
-    height:auto;}
-    #fomrcontact b{display:none;}
-        }
-    @media only screen and (max-width : 200px) {
-    }
+grid-template-columns: 1fr 1fr 1fr 1.1fr 0.9fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 3px 3px;
+grid-auto-flow: row;
+grid-template-areas:
+"full escrito1 escrito1 escrito1 ."
+"full escrito2 escrito2 imagen1 imagen1"
+"full escrito2 escrito2 imagen1 imagen1"
+"full escrito2 escrito2 fot4 fot4";
+width: 100%;
+height: 768px;
+}
+.escrito1 { grid-area: escrito1;}
+.imagen1 { grid-area: imagen1;  }
+.escrito2 { grid-area: escrito2;  }
+.fot4 { grid-area: fot4;  }
+.full { grid-area: full;  }
+
+/* query */
+@media only screen and (max-width : 768px) {
+}
+@media only screen and (max-width : 320px) {
+.contact1{display:none;}
+#formcontact{margin:0px;
+width: 100%;
+height:auto;}
+#fomrcontact b{display:none;}
+}
+@media only screen and (max-width : 200px) {
+}
