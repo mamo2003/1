@@ -46,21 +46,10 @@ width: min-content;
 height: min-content;
 align-self: center;
 }
-.card b{color: rgba(255, 187, 0);
+.card a{color: rgba(255, 187, 0)}
+.card-body2{
+  align-items: baseline;
 }
-/* .card-neu{
-  margin-left:30px;
-  margin-top:18px;
-  border-radius: 15%;
-  width:93%;
-  height: 600px;
-  justify-content: center;
-  text-align:center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
-#neufoto{
-width: 400px;
-justify-content: center;
-} */
 /* privado */
 .priv{
   text-align: center;
