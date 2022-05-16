@@ -56,13 +56,17 @@
 <main>
   <div id="formcontact"><h1 class="contact1">Formulario Contacto</h1>
     <imput type="text" name="nombre" palceholder="nombre">
+      <form action="/action_page.php">
       <br>
       <br>
-        <label for="nombre"><b>Nombre:</b></label><input type="text" name="nombre" placeholder="ingresa tu nombre"><br>
+        <label for="nombre"><b>Nombre:  </b></label><input type="text" name="nombre" placeholder="ingresa tu nombre"><br>
         <br>
-        <label for="apellido"><b>Apellido:</b></label><input type="text" name="apellido" placeholder="ingresa tu apellido"><br>
+        <label for="apellido"><b>Apellido:  </b></label><input type="text" name="apellido" placeholder="ingresa tu apellido"><br>
         <br>
-        <label for="Correo electronico"><b>Correo Electronico:</b></label><input type="email" name="_replyto" placeholder="Your email">
+        <label for="phone"><b>Numero de Telefono:  </b></label><input type="tel" id="phone" name="telefono" placeholder="2346-888888" pattern="[0-9]{3-4}-[0-9]{6-8}" required>
+        <br>
+        <br>
+        <label for="Correo electronico"><b>Correo Electronico:  </b></label><input type="email" name="_replyto" placeholder="tucorreo@server.com">
         <br>
         <input type="hidden" name="_honeypot" value="">
         <input type="hidden" name="_confirmation" value="">
@@ -82,11 +86,12 @@
         <option value="12">Uruguay</option>
         </select>
         <br>
-        <br><label for="comentario"><b>Dejanos tu comentario:</b></label>
+        <br><label for="comentario"><b>Dejanos tu comentario:  </b></label>
         <br>
-        <textarea name="comentario" placeholder="deja tu comentario aqui...." rows="8" cols="100"></textarea><p></p>
+        <textarea name="comentario" placeholder="deja tu comentario aqui...." rows="7" cols="100"></textarea>
+        <br>
         <input type="submit" value="Enviar formulario" formaction="./respuestacontacto.html">
-        <input type="reset" value="Borrar formulario">
+        <input type="reset" value="Borrar formulario"></form>
     <br>
     <br>
   </main>
