@@ -71,7 +71,7 @@ writing-mode: vertical-lr;
 .social-bar {
 position: fixed;
 right: 0;
-top: 61%;
+top: 65%;
 font-size: 1.5rem;
 display: flex;
 flex-direction: column;
