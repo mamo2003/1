@@ -50,7 +50,8 @@ align-self: center;
 }
 /* privado */
 .priv{
-  align-items: center;
+  text-align: center;
+  margin-right: 50px;
 }
 /* formulario contactos */
 #formcontact{
@@ -90,11 +91,8 @@ background: #2E406E;
 .icon-twitter {
 background: #339DC5;
 }
-.icon-youtube {
-background: #E83028;
-}
 .icon-instagram {
-background: #3F60A5;
+background: #c43599;
 }
 .icon-whatsapp {
 background: #76e74d ;
