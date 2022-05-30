@@ -1,7 +1,7 @@
 main{background-color:#f2f884 ;}  
 #texto{font-size:xx-large; font-weight:bold; color: rgba(255, 187, 0);}
 #texto:before{
-content:"Neumaticos Centro";color: rgba(255, 187, 0)4}
+content:"Neumaticos Centro";color: rgba(255, 187, 0);}
 .box{background-color: rgb(255, 255, 255);}
 .nav-link{color:rgba(255, 187, 0);
 margin: 15px;
@@ -13,8 +13,6 @@ margin: 15px;
 background-color: rgb(243, 201, 66);
 color:black;
 }
-h1{
-  color:rgba(255, 187, 0);}
 .dropdown-item{   
 color: rgb(255, 187, 0);
 margin: 0px;
@@ -59,13 +57,6 @@ align-self: center;
     justify-content: space-evenly;
 }
 .dropdown-item {
-    color: rgb(255, 187, 0);
-    margin: 0px;
-}
-.btn-outline-warning {
-    background-color: #f2f884;
-}
-.dropdown-item {
     display: block;
     width: 100%;
     padding: 0.25rem 1rem;
@@ -77,10 +68,13 @@ align-self: center;
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+    color: rgb(255, 187, 0);
+    margin: 0px;
 }
 .btn-outline-warning {
     color: #ffc107;
     border-color: #ffc107;
+    background-color: #f2f884;
 }
 .btn {
     display: inline-block;
@@ -100,23 +94,6 @@ align-self: center;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-a {
-    color: #0d6efd;
-    text-decoration: underline;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-hoja de estilo del usuario-agente
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-hoja de estilo del usuario-agente
-li {
-    text-align: -webkit-match-parent;
 }
 .dropdown-menu {background-color:rgba(255, 187, 0) ;}
 .card a{color: rgba(255, 187, 0)}
