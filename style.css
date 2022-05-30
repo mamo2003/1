@@ -1,7 +1,7 @@
 main{background-color:#f2f884 ;}  
 #texto{font-size:xx-large; font-weight:bold; color: rgba(255, 187, 0);}
 #texto:before{
-  content: "Neumaticos Centro";color: rgba(255, 187, 0)4}
+content:"Neumaticos Centro";color: rgba(255, 187, 0)4}
 .box{background-color: rgb(255, 255, 255);}
 .nav-link{color:rgba(255, 187, 0);
 margin: 15px;
