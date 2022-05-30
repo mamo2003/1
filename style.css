@@ -40,7 +40,7 @@ text-shadow: 1px 2px 1px rgb(200, 198, 198);}
 .card{
 border-radius: 10%;
 width:85%;
-height:300px;
+height:500px;
 box-sizing: border-box;
 text-align: center;
 margin: 10px 20px;
@@ -53,6 +53,8 @@ width:100px;
 height:100px;
 align-self: center;
 }
+.container-fluid{ height: 600px;}
+.card-img{width: 100%;height: 450px;}
 .nav-item .btn {
     text-align: justify;
     justify-content: space-evenly;
@@ -197,18 +199,17 @@ height: 768px;
 .full { grid-area: full;  }
 .neumaticos{width: 100%;height: 600px;}
 /* query */
-@media only screen and (max-width : 1600px) {element.style{width: 600px;height: 300px;}}
-@media only screen and (max-width : 1200px) {.container{justify-items: left;margin-left: 0%;}}
-@media only screen and (max-width : 1200px) {.rounded-circle{display:none;}#texto{font-size: calc(1em + 1vw)}
-@media only screen and (max-width : 768px) {.card-img{display: none;}
+@media only screen and (max-width : 1600px) {}
+@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}.card:{overflow: scroll;}.container-fluid{ height: auto;}}
+@media only screen and (max-width : 1200px) {.rounded-circle{display:none;}#texto{font-size: calc(1em + 1vw)}}
+@media only screen and (max-width : 768px) {.card-img{display: none;} 
 .box-somos img{display:none}
-.titulo1:before{content: attr(data-desktoptext);}
-}
+.titulo1:before{content: attr(data-desktoptext)}}
 @media only screen and (max-width : 577px) {.contact1{margin:0px;display:none;}
 #formcontact{margin:0px;margin-top:50px;display:block;
 width:auto;
 height:auto;}
-#fomrcontact b{display:none;}
+#fomrcontact b{display:none}
 .card-img-top{display:none}
 .carousel{display:none}
 .rounded-circle{display:none;}
@@ -220,6 +221,7 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .foto4{display:none}
 .card-img{display: none;}
 .card{font-size: calc(1em + 1vw);}
+.card{overflow:scroll;}
 }
 @media only screen and (max-width : 370px) {
 .titulo1:before{
