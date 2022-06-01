@@ -23,19 +23,19 @@ margin: 0px;
 align-self:baseline;
 height: 70px;
 }
-.rounded-circle{
+.rounded-circle {
 width: 55px;
 height: 55px;
-animation-name: rodar;
-animation-duration: 8s;
+animation-name:rodar;
+animation: duration 10s;
 animation-iteration-count:infinite;
 }
 @keyframes rodar{
-  0% {transition:rotatez (45deg);}
-  25% {transition:rotatez (90deg);}
-  50% {transition:rotatez (90deg);}
-  75% {transition:rotatez (120deg);}
-  100% {transition:rotatez (90deg);}
+  0% {transition:rotateZ(45deg);}
+  25% {transition:rotateZ(90deg);}
+  50% {transition:rotateZ(90deg);}
+  75% {transition:rotateZ(120deg);}
+  100% {transition:rotateZ(90deg);}
 }
 .nav-item .btn{
 text-align: justify;
