@@ -222,10 +222,6 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .titulo1:before{
 content: attr(data-phonetext);}
 .box-somos img{display:none;}
-.contact1{display:none;}
-#formcontact{margin:0px;display:block;margin-top:50px;}
-.textarea1{width: auto;}
-#fomrcontact b{display:none;}
 .card-img-top{display:none}
 .carousel{display:none}
 .rounded-circle{display:none;}
