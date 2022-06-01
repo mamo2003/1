@@ -23,13 +23,14 @@ margin: 0px;
 align-self:baseline;
 height: 70px;
 }
-.rounded-circle {
+.rounded-circle{
 width: 55px;
 height: 55px;
 animation-name:roda;
-animation: duration 10s;
+animation: duration 5s;
 animation-iteration-count:infinite;
 }
+
 @keyframes roda{
   0% {transition:rotateZ(45deg);}
   25% {transition:rotateZ(90deg);}
