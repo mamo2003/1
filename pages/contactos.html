@@ -54,46 +54,49 @@
   </nav>
 </header>
 <main>
-  <div id="formcontact"><h1 class="contact1">Formulario Contacto</h1>
-    <imput type="text" name="nombre" palceholder="nombre">
-      <form action="/action_page.php">
-      <br>
-      <br>
-        <label for="nombre"><b>Nombre:  </b></label><input type="text" name="nombre" placeholder="ingresa tu nombre"><br>
-        <br>
-        <label for="apellido"><b>Apellido:  </b></label><input type="text" name="apellido" placeholder="ingresa tu apellido"><br>
-        <br>
-        <label for="phone"><b>Numero de Telefono:  </b></label><input type="tel" id="phone" name="telefono" placeholder="2346-888888" pattern="[0-9]{3-4}-[0-9]{6-8}" required>
-        <br>
-        <br>
-        <label for="Correo electronico"><b>Correo Electronico:  </b></label><input type="email" name="_replyto" placeholder="tucorreo@server.com">
-        <br>
-        <input type="hidden" name="_honeypot" value="">
-        <input type="hidden" name="_confirmation" value="">
-        <br>
-        <b>Pais de origen:  </b> <select name="pais">    
-        <option value="1">Argentina</option>
-        <option value="2">España</option>
-        <option value="3">México</option>
-        <option value="4">Guatemala</option>
-        <option value="5">Honduras</option>
-        <option value="6">El Salvador</option>
-        <option value="7">Venezuela</option>
-        <option value="8">Colombia</option>
-        <option value="9">Cuba</option>
-        <option value="10">Bolivia</option>
-        <option value="11">Ecuador</option>
-        <option value="12">Uruguay</option>
-        </select>
-        <br>
-        <br><label for="comentario"><b>Dejanos tu comentario:  </b></label>
-        <br>
-        <textarea class="textarea1" name="comentario" placeholder="deja tu comentario aqui...."></textarea>
-        <br>
-        <input type="submit" value="Enviar formulario" formaction="./respuestacontacto.html">
-        <input type="reset" value="Borrar formulario"></form>
-    <br>
-    <br>
+  <br><br><br>
+  <form>
+    <div class="form_titulo"><h1>Formulario Contacto</h1></div>
+    <br><br>
+    <div class="form-group">
+        <label for="formGroupExampleInput"><b>Nombre</b></label>
+        <input type="text" class="form-control " id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput2"><b>Apellido</b></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresa tu apellido">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput3"><b>Numero de Telefono: </b></label>
+        <input type="tel" class="form-control" name="telefono" placeholder="2346-888888" pattern="[0-9]{3-4}-[0-9]{6-8}" required>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput4"><b>Correo Electronico:</b></label>
+      <input type="email" class="form-control" name="_replyto" placeholder="tucorreo@server.com"required>
+    </div>
+    <div class="form-group">
+      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+      <label class="form-check-label" for="gridRadios1">
+      Contactarme por Correo electronico
+      </label>
+    </div>
+    <div class="form-group">
+      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+      <label class="form-check-label" for="gridRadios2">
+      Contactarme  telefonicamente
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="comentario"><b>Dejanos tu comentario:  </b></label>
+      <textarea class="form-control" name="comentario" placeholder="deja tu comentario aqui...."></textarea>
+    </div>
+    <br><br>
+    <div class="form-group">
+    <input class="btn btn-outline-warning" type="submit" value="Enviar formulario" formaction="./respuestacontacto.html">
+    <input class="btn btn-outline-warning" type="reset" value="Borrar formulario">
+  </div>
+  </form>
+  <br><br>
   </main>
   <footer>
         <div class="container-fluid">

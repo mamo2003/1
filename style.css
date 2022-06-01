@@ -49,11 +49,12 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 .card:hover{box-shadow:rgba(232, 234, 103, 0.797) 0px 8px 24px;
 }
 .card-img-top{
-width:100px;
-height:100px;
+width:250px;
+height:300px;
 align-self: center;
 }
-.container-fluid{ height: 600px;}
+.footer{height: 80px;}
+.container-fluid.bcontent{ height: 600px;}
 .card-img{width: 100%;height: 450px;}
 .nav-item .btn {
     text-align: justify;
@@ -106,28 +107,23 @@ align-self: center;
   margin-right: 50px;
 }
 /* formulario contactos */
-#formcontact{
-  align-items: center;
-  display: flex;
-  position: relative;
-  margin-top: 50px;
-  background-color: #f2f884;
-}
-.contact1{ 
-margin-top: 26px;
-margin-bottom: 5px;
-font-size:56px;
-padding-right:80px;
-writing-mode: vertical-lr;
-}
-.textarea1{ height: 100px;
-width: 350px;}
-.rescontacto{
-height: 1000px;
-padding-top: 200px;
+.form-group {
+width: 80%;
 text-align: center;
-background-color: #f2f884;
+margin-top: 20px;
+margin-left: 100px;
 }
+.form-group ::placeholder{text-align: center;}
+.form-group .btn-outline-warning{ border-color: #f2f884;}
+.form-check{
+margin-top: 10px;
+margin-left: 100px;
+}
+.form_titulo{text-align: center;
+font-weight: 900;}
+.rescontacto{height: 500px;
+text-align: center;
+padding-top: 10%;}
 #copyright:hover{color:#f2f884;}
 .box-somos{
   height: 1200px;
@@ -199,8 +195,7 @@ height: 768px;
 .full { grid-area: full;  }
 .neumaticos{width: 100%;height: 600px;}
 /* query */
-@media only screen and (max-width : 1600px) {}
-@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}.card:{overflow: scroll;}.container-fluid{ height: auto;}}
+@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}.card{overflow: scroll;}.container-fluid{height: auto;}}
 @media only screen and (max-width : 1200px) {.rounded-circle{display:none;}#texto{font-size: calc(1em + 1vw)}}
 @media only screen and (max-width : 768px) {.card-img{display: none;} 
 .box-somos img{display:none}
@@ -247,7 +242,7 @@ height:auto;}
 }
 /*query titulo page*/
 @media (max-width:900px) and (min-width:450px) {
-#texto:before { content: "Neumaticos Centro";}
+#texto:before {content: "Neumaticos Centro";}
 }
 @media (max-width:400px){
 #texto:before {content: "N Centro";}
