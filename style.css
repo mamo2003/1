@@ -6,9 +6,10 @@ content:"Neumaticos Centro";color: rgba(255, 187, 0);}
 .nav-link{color:rgba(255, 187, 0);
 margin: 15px;
 }
+#carrito{ width: 50px;height: 50px;}
 #collapsibleNavbar{margin-left: 60px;}
 .nav-link:hover{color:black}
-.btn-outline-warning{background-color: #f2f884;
+.btn-outline-warning{background-color: #f2f884;align-items: center;
 }
 .btn-outline-warning:hover{
 background-color: rgb(243, 201, 66);
@@ -30,6 +31,7 @@ height: 55px;
 text-align: justify;
 justify-content:space-evenly;
 }
+.navbar-light .navbar-nav .nav-link{background-color:rgb(243, 201, 66) ;}
 /* carrusel */
 .d-block{height: 600px;
 }
@@ -200,11 +202,7 @@ height: 768px;
 @media only screen and (max-width : 768px) {.card-img{display: none;} 
 .box-somos img{display:none}
 .titulo1:before{content: attr(data-desktoptext)}}
-@media only screen and (max-width : 577px) {.contact1{margin:0px;display:none;}
-#formcontact{margin:0px;margin-top:50px;display:block;
-width:auto;
-height:auto;}
-#fomrcontact b{display:none}
+@media only screen and (max-width : 577px){.form-group{ margin-left: 5px;}
 .card-img-top{display:none}
 .carousel{display:none}
 .rounded-circle{display:none;}
