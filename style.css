@@ -26,11 +26,11 @@ height: 70px;
 .rounded-circle {
 width: 55px;
 height: 55px;
-animation-name:rodar;
+animation-name:roda;
 animation: duration 10s;
 animation-iteration-count:infinite;
 }
-@keyframes rodar{
+@keyframes roda{
   0% {transition:rotateZ(45deg);}
   25% {transition:rotateZ(90deg);}
   50% {transition:rotateZ(90deg);}
