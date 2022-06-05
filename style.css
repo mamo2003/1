@@ -27,7 +27,7 @@ height: 70px;
 width: 55px;
 height: 55px;
 animation-name:roda;
-animation: duration 5s;
+animation-duration: 5s;
 animation-iteration-count:infinite;
 }
 @keyframes roda{
@@ -199,17 +199,24 @@ box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
     "escrito2 foto1 "
     "foto2 full ";
 }
-.escrito1 { grid-area: escrito1;font-size:calc(0.5em + 1vw);}
-.foto1 { grid-area: foto1; justify-self: center;}
-.escrito2 { grid-area: escrito2;font-size:calc(0.5em + 0.5vw); }
-.foto2 { grid-area: foto2;justify-self: center;}
+.escrito1 { grid-area: escrito1;font-size:calc(0.5em + 1vw); align-self: center; }
+.foto1 { grid-area: foto1; justify-self: right;}
+.escrito2 { grid-area: escrito2;font-size:calc(0.5em + 0.7vw); align-self: center; }
+.foto2 { grid-area: foto2;justify-self: left;}
 .full { grid-area: full;font-size:calc(0.5em + 1vw); align-self: center;}
-
 
 .escrito2_1{font-size:calc(0.5em + 1vw);}
 /* query */
-@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}.card{overflow: scroll;}.container-fluid{height: auto;}}
-@media only screen and (max-width : 1200px) {.rounded-circle{display:none;}#texto{font-size: calc(1em + 1vw)}}
+@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}
+.card{overflow: scroll;}
+.container-fluid{height: auto;}}
+@media only screen and (max-width : 1200px) {.escrito1{font-size: calc(0.5em + 1vw);}
+.escrito2{font-size: calc(0.3em + 1vw);}
+.full{font-size: calc(0.3em + 1vw);padding-left: 3px;}
+.foto1 {justify-self: auto;}
+.foto2 iframe{height: auto;width: auto;}
+.rounded-circle{display:none;}
+#texto{font-size: calc(1em + 1vw)}}
 @media only screen and (max-width : 768px) {.card-img{display: none;} 
 .box-somos img{display:none}
 .titulo1:before{content: attr(data-desktoptext)}
@@ -221,11 +228,8 @@ box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 h3{font-size: calc(1em + 1vw);display:block;}
 h5{font-size: calc(1em + 1vw);display:block;}
 .texto{padding-top:60px;}
-.foto1{display:none}
-.foto2{display:none}
-.escrito1{font-size: calc(0.5em + 1vw);}
-.escrito2{font-size: calc(0.5em + 1vw);}
-.full{font-size: calc(0.5em + 1vw);}
+.foto1{height: auto;}
+.foto2{height: auto;}
 .card-img{display: none;}
 .card{font-size: calc(1em + 1vw);}
 .card{overflow:scroll;}
