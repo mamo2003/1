@@ -1,4 +1,4 @@
-main{background-color:#f2f884 ;}  
+main{background-color:#eff39a ;}  
 #texto{font-size:xx-large; font-weight:bold; color: rgba(255, 187, 0);}
 #texto:before{
 content:"Neumaticos Centro";color: rgba(255, 187, 0);}
@@ -9,7 +9,7 @@ margin: 15px;
 #carrito{ width: 70px;height: 50px;}
 #collapsibleNavbar{margin-left: 60px;}
 .nav-link:hover{color:black}
-.btn-outline-warning{background-color: #f2f884;align-items: center;
+.btn-outline-warning{background-color: rgba(255, 187, 0);align-items: center;
 }
 .btn-outline-warning:hover{
 background-color: rgb(243, 201, 66);
@@ -23,14 +23,14 @@ margin: 0px;
 align-self:baseline;
 height: 70px;
 }
-.rounded-circle{
+.rounded-circle {
 width: 55px;
 height: 55px;
-animation-name:roda;
+animation-name:animar;
 animation-duration: 5s;
 animation-iteration-count:infinite;
 }
-@keyframes roda{
+@keyframes animar{
   0% {transition:rotateZ(45deg);}
   25% {transition:rotateZ(90deg);}
   50% {transition:rotateZ(90deg);}
@@ -235,15 +235,17 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .card{overflow:scroll;}
 }
 @media only screen and (max-width : 370px) {
-.titulo1:before{
-content: attr(data-phonetext);}
+.titulo1:before{content: attr(data-phonetext);}
 .box-somos img{display:none;}
 .card-img-top{display:none}
 .carousel{display:none}
 h3{font-size: calc(1em + 1vw);display:block;}
 h5{font-size: calc(1em + 1vw);display:block;}
 .texto{padding-top:60px;}
+.foto1 {display:none;}
+.foto2 {display:none;}
 }
+
 @media only screen and (max-width : 244px) {#formcontact{margin:0px;display:block;
   width:auto;
 height:auto;}
