@@ -220,7 +220,7 @@ input[type=text], input[type=password] {
 }
 b{align-content: center;}
 button {
-  background-color: #fdf497;
+  background-color:  rgb(255, 187, 0);
   color: rgb(14, 13, 13);
   padding: 14px 20px;
   border: 1px solid #ccc;
