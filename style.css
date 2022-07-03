@@ -302,11 +302,9 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .foto2 {display:none;}
 span.psw {
 display: block;
-float: none;
-}
+float: none;}
 .cancelbtn {
-width: 50%;
-}
+width: 50%;}
 }
 @media only screen and (max-width : 244px) {#formcontact{margin:0px;display:block;
 width:auto;
