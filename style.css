@@ -225,48 +225,51 @@ button {
   padding: 14px 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 50%;
+width: 50%;
 }
 button:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 .cancelbtn {
-  width: 50%;
-  margin-top: 6px;
-  margin-left: 12px;
-  padding: 20px 20px;
-  background-color: #f44336;
-  border-radius: 10px;
+width: 50%;
+margin-top: 6px;
+margin-left: 12px;
+padding: 20px 20px;
+background-color: #f44336;
+border-radius: 10px;
 }
 .imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
+text-align: center;
+margin: 24px 0 12px 0;
 }
 img.avatar {
-  width: 30%;
-  border-radius: 50%;
+width: 30%;
+border-radius: 50%;
 }
 .container_edit { 
-  align-items: center;
-  text-align: center;
-  margin-left: 10%;
-  width: 70%;
+align-items: center;
+text-align: center;
+margin-left: 10%;
+width: 70%;
 }
 span.psw {
-    padding-top: 16px;
+padding-top: 16px;
 }
 
 /* query */
-@media only screen and (max-width : 1200px) {.container{justify-items: left; margin-left: 0px;}
+@media only screen and (max-width : 1200px) {
+.container{justify-items: left; margin-left: 0px;}
 .card{overflow: scroll;}
-.container-fluid{height: auto;}}
-@media only screen and (max-width : 1200px) {.escrito1{font-size: calc(0.5em + 1vw);}
+.container-fluid{height: auto;}.escrito1{font-size: calc(0.5em + 1vw);}
 .escrito2{font-size: calc(0.3em + 1vw);}
 .full{font-size: calc(0.3em + 1vw);padding-left: 3px;}
 .foto1 {justify-self: auto;}
 .foto2 iframe{height: auto;width: auto;}
 .rounded-circle{display:none;}
 #texto{font-size: calc(1em + 1vw)}}
+@media (max-width:900px) and (min-width:450px) {
+#texto:before {content: "Neumaticos Centro";}
+}
 @media only screen and (max-width : 768px) {.card-img{display: none;} 
 .box-somos img{display:none}
 .titulo1:before{content: attr(data-desktoptext)}
@@ -284,6 +287,9 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .card{font-size: calc(1em + 1vw);}
 .card{overflow:scroll;}
 }
+@media (max-width:400px){
+#texto:before {content: "N Centro";}
+}
 @media only screen and (max-width : 370px) {
 .titulo1:before{content: attr(data-phonetext);}
 .box-somos img{display:none;}
@@ -295,25 +301,18 @@ h5{font-size: calc(1em + 1vw);display:block;}
 .foto1 {display:none;}
 .foto2 {display:none;}
 span.psw {
-  display: block;
-  float: none;
+display: block;
+float: none;
 }
 .cancelbtn {
-  width: 50%;
+width: 50%;
 }
 }
-
 @media only screen and (max-width : 244px) {#formcontact{margin:0px;display:block;
-  width:auto;
+width:auto;
 height:auto;}
 .collapse-navbar{width:auto;
 height:auto;}
 .contact1{margin:0px;display:none;}
 }
-/*query titulo page*/
-@media (max-width:900px) and (min-width:450px) {
-#texto:before {content: "Neumaticos Centro";}
-}
-@media (max-width:400px){
-#texto:before {content: "N Centro";}
-}
+
