@@ -1,6 +1,6 @@
 main {
   margin-top: 5vw;
-  padding-top: 1%;
+  padding-top: 1vw;
   background-color: #f2f884;
 }
 #texto {
@@ -25,7 +25,8 @@ main {
   height: 50px;
 }
 #collapsibleNavbar {
-  margin-left: 60px;
+  background-color: #f8f9fa ;
+
 }
 .nav-link:hover {
   color: black;
@@ -44,7 +45,7 @@ main {
 }
 .navbar {
   align-self: baseline;
-  height: 70px;
+  height: 83px;
 }
 .rounded-circle {
   width: 55px;
@@ -84,6 +85,7 @@ button{
 }
 /* carrusel */
 .d-block {
+  margin-top: 0px;
   height: 600px;
 }
 /* CARDS */
@@ -401,7 +403,7 @@ span.psw {
     content: "Neumaticos Centro";
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 810px) {
   .card-img {
     display: none;
   }
