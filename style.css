@@ -3,6 +3,7 @@ main {
   padding-top: 1vw;
   background-color: #f2f884;
 }
+#visitante{height: 20px;}
 #texto {
   font-size: xx-large;
   font-weight: bold;
@@ -58,6 +59,15 @@ button{
   align-items: baseline;
   margin-top: 15px;
   height: 45px;
+}
+.card-link{
+  padding-top: 1vw;
+}
+.texto{
+  padding-top: 3vw;
+}
+.ingresop{
+  margin-top:1vw;
 }
 @keyframes animar {
   0% {

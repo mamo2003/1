@@ -1,13 +1,14 @@
+
+
 function pnombre(){
-    let nombre = prompt("bienvenido!! Ingresa tu nombre por favor:");
-    return nombre
+    let visita = prompt("bienvenido!! Ingresa tu nombre por favor:");
+    return visita
 }
 
-window.onload(pnombre);
-console.log(pnombre);
+let nombre = visita;
+visitante.innerhtml = `<h3> Bienvenido/a ${nombre} <h3>`;
+
 /* let nombre = queryselector(nombre).value;
-let visitante = queryselector("#visitante").innerhtml;
+let visitante = queryselector("#visitante").innerhtml; */
 
-visitante.innertext = Bienvenido + nombre;
-
- */
+/* window.onload(pnombre) */
