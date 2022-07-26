@@ -1,9 +1,14 @@
 main {
-  margin-top: 5vw;
-  padding-top: 1vw;
+  margin-top:4vw;
   background-color: #f2f884;
 }
-#visitante{height: 20px;}
+#visitante{
+  height: 20px;
+  padding-top: 1px;
+  padding-right: 35px;
+  text-align: right;
+  background-color: #f8f9fa;
+}
 #texto {
   font-size: xx-large;
   font-weight: bold;
@@ -15,7 +20,7 @@ main {
 }
 .box {
   background-color: rgb(255, 255, 255);
-  margin-top: 0vw;
+  margin-top: 6vw;
 }
 .nav-link {
   color: rgba(255, 187, 0);
@@ -46,7 +51,7 @@ main {
 }
 .navbar {
   align-self: baseline;
-  height: 83px;
+  height: 90px;
 }
 .rounded-circle {
   width: 55px;
