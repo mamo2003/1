@@ -3,9 +3,9 @@ main {
   background-color: #f2f884;
 }
 #visitante{
-  height: 30px;
+  height: 35px;
   padding-top: 1px;
-  padding-right: 35px;
+  margin-bottom: 0%;
   text-align: center;
   background-color: #f8f9fa;
 }
@@ -20,7 +20,7 @@ main {
 }
 .box {
   background-color: rgb(255, 255, 255);
-  margin-top: 6vw;
+  padding-top: 3vw;
 }
 .nav-link {
   color: rgba(255, 187, 0);
@@ -100,7 +100,7 @@ button{
 }
 /* carrusel */
 .d-block {
-  margin-top: 0px;
+
   height: 600px;
 }
 /* CARDS */

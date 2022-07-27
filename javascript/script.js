@@ -10,7 +10,7 @@ let visitante= document.querySelector("#visitante");
 
 let txtnombre = localStorage.getItem("usuario","usuario");
 
-
+  
 function contador(){
     for (let contari = 0; contari < (identificarusuario() != 0); contari++) {
     contari += 1;
@@ -18,12 +18,12 @@ function contador(){
 }
 contari= parseInt(document.querySelector("#contari"));
 
-let txtcontar = localStorage.getItem("contari","contari");
+let numcontar = localStorage.getItem("contari","contari");
 
 /* user.value= txtnombre;
 user.addEventListener("click",()=>{ txtnombre=localStorage.setItem("txtnombre","nombre.value")}); */
 
-visitante.innerHTML=`<strong>Bienvenido  ${usuario} ,  Eres el visitante n° ${contador()} </strong> `;
+visitante.innerHTML=`<p>Bienvenido <strong> ${usuario}<strong><p>, Eres el visitante n°<p><strong> ${contari} <strong>`;
 
 
 
