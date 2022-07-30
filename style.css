@@ -1,10 +1,10 @@
 main {
-  margin-top:3vw;
+  margin-top: 7vw;
   background-color: #f2f884;
 }
 #visitante{
   height: 35px;
-  padding-top: 1px;
+  margin-top:0%;
   margin-bottom: 0%;
   text-align: center;
   background-color: #f8f9fa;
@@ -20,7 +20,6 @@ main {
 }
 .box {
   background-color: rgb(255, 255, 255);
-  padding-top: 3vw;
 }
 .nav-link {
   color: rgba(255, 187, 0);
@@ -100,7 +99,7 @@ button{
 }
 /* carrusel */
 .d-block {
-
+  margin-top: 0%;
   height: 600px;
 }
 /* CARDS */

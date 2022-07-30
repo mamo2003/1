@@ -1,33 +1,37 @@
-function identificarusuario(){
-    let usuario = prompt("Ingrese su nombre para identificarse");
-    if (usuario < 0) {"No puede quedar vacio, registre su nombre por favor"  
-    }
-    return usuario
+// identificacion de usuario
+
+let visitante = document.querySelector("#visitante");
+
+function visita(){ let usuario = prompt("identificate");
+return usuario
 }
-usuario= identificarusuario();
+let usuario=visita();
 
-let visitante= document.querySelector("#visitante");
+visitante.onclick=() => visita();
 
-let txtnombre = localStorage.getItem("usuario","usuario");
 
-  
-function contador(){
-    for (let contari = 0; contari < (identificarusuario() != 0); contari++) {
-    contari += 1;
-    } return contari
+
+let txtusuario=localStorage.setItem("usuario",usuario);
+txtusuario = usuario;
+
+visitante.addEventListener("change",() =>{txtusuario=localStorage.setItem("usuario",usuario)});  
+
+
+// contador de clicks
+
+let conteo = 0;
+let suma=1;
+let contado;
+function contador(conteo,suma) { contado = conteo + suma;
+  return contado
 }
-contari= parseInt(document.querySelector("#contari"));
 
-let numcontar = localStorage.getItem("contari","contari");
-
-/* user.value= txtnombre;
-user.addEventListener("click",()=>{ txtnombre=localStorage.setItem("txtnombre","nombre.value")}); */
-
-visitante.innerHTML=`<p>Bienvenido <strong> ${usuario}<strong><p>, Eres el visitante n°<p><strong> ${contari} <strong>`;
+visitante.onclick=() => contador();
 
 
+let numcontador= localStorage.setItem("contado",contado);
+numcontador= contado;
 
-/* let nombre = queryselector(nombre).value;
-let visitante = queryselector("#visitante").innerhtml; */
 
-/* window.onload(pnombre) */
+visitante.innerHTML=`<p><strong>Bienvenida/o  ${usuario}, Eres el visitante n°  ${contado} de nuestra pagina</strong></p>`;
+
