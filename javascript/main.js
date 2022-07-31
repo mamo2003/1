@@ -11,8 +11,9 @@ usuario=visita();
 
 let visitante = document.querySelector("#visitante");
 
-let txtusuario=localStorage.setItem("usuario",usuario);
+let txtusuario=localStorage.setItem(usuario,usuario);
 txtusuario = usuario;
+ let usuariorecupero= localStorage.getItem(usuario)
 
 /* usuario.addEventListener("change",() =>{txtusuario=localStorage.setItem("usuario",usuario)}); */  
 
@@ -20,20 +21,17 @@ txtusuario = usuario;
 // contador de clicks
 let numrecupero=parseInt(localStorage.getItem("contado"));
 let conteo = 0
-function contador() { let contado = conteo + numrecupero + 1;
+function contador() { let contado = conteo + 1;
 return contado;
 }
 contador()
 
 let contado=contador();
 
+console.log(numrecupero)
 console.log(contador())
-
-visitante.click=() => visita() & contador();
-
+let numcontador= localStorage.setItem("contado", (contado));
 
 
-let numcontador= localStorage.setItem("contado", contado);
-
-
-visitante.innerHTML=`<p><strong>Bienvenida/o  ${usuario}, Eres el visitante n°  ${contado} de nuestra pagina</strong></p>`;
+visitante.innerHTML=`<p><strong>Bienvenida/o  ${usuariorecupero}, Eres el visitante n°  ${contado} de nuestra pagina</strong></p>`;
+visitante.onclick = () => visita() & contador();
