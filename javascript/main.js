@@ -115,22 +115,21 @@ let visitante = document.querySelector("#visitante");
 visitante.addEventListener("click",visita && contador );
 let conteo=0;
 let contadoa=1;
-let contadob=1;
+let contadob=1 ;
 let numrecupero=parseInt(localStorage.getItem("contado"));
-function contador() { contadoa = conteo + 1;
+function contador() { contadoa = conteo + contadoa;
 }if(numrecupero > 0){ contadob = numrecupero + contadoa;
-}
-let numcontador=localStorage.setItem("contado",(contadob));
+}let numcontador=contadob;
+numcontador=localStorage.setItem("contado",(contadob));
 
 let usuario="";
 function visita () { let usuario = prompt("ingrese su nombre:");
 if(usuario.length == 0) {alert("no ingreso un nombre , intentelo nuevamente")
 usuario= prompt("ingrese su nombre");
-}
 let guardado=usuario;
 guardado=localStorage.setItem("usuario",usuario);
-visitante.innerHTML=`<p><strong> Bienvenida/o  ${usuario} , Eres el visitante n° ${contadob} de nuestra pagina </strong></p>`;
+}else{visitante.innerHTML=`<p><strong> Bienvenida/o  ${usuario} , Eres el visitante n° ${contadob} de nuestra pagina </strong></p>`;
+    visitante.removeEventListener("click",visita ,contador)} 
 }
 
-visitante.addEventListener("click",visita ,contador)    
-
+visitante.addEventListener("click",visita ,contador)  
