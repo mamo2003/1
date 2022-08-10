@@ -7,7 +7,7 @@ let numcontador=contadob;
 let numrecupero=parseInt(localStorage.getItem("contado"));
 function contador() { contadoa = conteo + contadoa;
 }if(numrecupero > 0){ contadob = numrecupero + contadoa;
-}numcontador=contadob;
+}
 numcontador=localStorage.setItem("contado",contadob);
 
 let usuario="";
