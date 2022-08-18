@@ -20,8 +20,7 @@ numcontador=localStorage.setItem("contado",contadob);
 let usuario="";
 
 function visita () {usuario = prompt("ingrese su nombre:");
-if(usuario.length == 0) {alert("no ingreso un nombre , intentelo nuevamente")
-usuario= prompt("ingrese su nombre");
+if(usuario.length == 0) {alert("no ingreso un nombre , intentelo nuevamente");return
 let guardado=usuario;
 guardado=localStorage.setItem("usuario",guardado);
 }else{visitante.innerHTML=`<p><strong> Bienvenida/o  ${usuario} , Eres el visitante n° ${contadob} de nuestra pagina </strong></p>`;
